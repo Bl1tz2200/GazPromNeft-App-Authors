@@ -14,5 +14,6 @@ dependencies {
 <br>
 implementation "com.google.ar.sceneform.ux:sceneform-ux:1.5.0"<br>
 <br>
+Так же необходимо установить свою 3D модель для рендера, которую нужно установить и импортировать в Android Studio<br>
 <br>
 Ссылка на источник: https://habr.com/ru/articles/438178/<br>
