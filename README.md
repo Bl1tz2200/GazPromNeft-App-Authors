@@ -10,7 +10,7 @@ dependencies {
 <br>
 А эту зависимость добавить в файл build.gradle на уровня приложения:<br>
 <br>
-implementation "com.google.ar.sceneform.ux:sceneform-ux:1.5.0"
+`implementation "com.google.ar.sceneform.ux:sceneform-ux:1.5.0"`<br>
 <br>
 <br>
 Ссылка на источник: https://habr.com/ru/articles/438178/<br>
