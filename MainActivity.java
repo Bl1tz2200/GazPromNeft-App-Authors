@@ -24,21 +24,21 @@ public class MainActivity extends AppCompatActivity {
     private static final String TAG = MainActivity.class.getSimpleName();
     private static final double MIN_OPENGL_VERSION = 3.0;
 
-    ArFragment arFragment;
-    ModelRenderable lampPostRenderable;
+    ArFragment arFragment; // задаем AR фрагмент из xml файла
+    ModelRenderable lampPostRenderable; // задаем 3D модель
 
     @Override
     @SuppressWarnings({"AndroidApiChecker", "FutureReturnValueIgnored"})
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (!checkIsSupportedDeviceOrFinish(this)) {
+        if (!checkIsSupportedDeviceOrFinish(this)) { // Проверяем совместимость телефона через функцию
             return;
         }
         setContentView(R.layout.activity_main);
         arFragment = (ArFragment) getSupportFragmentManager().findFragmentById(R.id.ux_fragment);
 
         ModelRenderable.builder()
-                .setSource(this, Uri.parse("LampPost.sfb"))
+                .setSource(this, Uri.parse("LampPost.sfb")) // УКАЗЫВАЕМ ТУТ СВОЮ 3D МОДЕЛЬ (вместо LampPost.sfb)
                 .build()
                 .thenAccept(renderable -> lampPostRenderable = renderable)
                 .exceptionally(throwable -> {
