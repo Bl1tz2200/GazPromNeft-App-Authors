@@ -4,11 +4,11 @@
 <br>
 Для работы необходимо добавить следующую зависимость в файл build.gradle на уровне проекта:<br>
 <br>
-```bash
-dependencies {
+
+`dependencies {
   classpath 'com.google.ar.sceneform:plugin:1.5.0'
 }
-```
+`
 <br>
 А эту зависимость добавить в файл build.gradle на уровня приложения:<br>
 <br>
