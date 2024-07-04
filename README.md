@@ -13,7 +13,7 @@ dependencies {
 <br>
 А эту зависимость добавить в файл build.gradle на уровня приложения:<br>
 <br>
-`implementation "com.google.ar.sceneform.ux:sceneform-ux:1.5.0"`<br>
+implementation "com.google.ar.sceneform.ux:sceneform-ux:1.5.0"<br>
 <br>
 Так же необходимо добавить свою 3D модель для рендера в MainActivity, которую нужно установить и импортировать в Android Studio<br>
 <br>
