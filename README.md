@@ -23,5 +23,3 @@
     <p>Telegram: <a href="https://t.me/Blitz_2200">@Blitz_2200</a></p><br>
   </li>
 </ul>
-
-<a href="https://t.me/mirelol">@mirelol</a>
